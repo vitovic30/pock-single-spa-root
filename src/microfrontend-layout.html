@@ -1,0 +1,14 @@
+<single-spa-router>
+  <main>
+    <route path="/dashboard">
+      <application name="@Om30/pock-single-spa-menu"></application>
+      <application name="@Om30/pock-single-spa-dashboard"></application>
+    </route>
+    <route path="/dashboard/cadastro">
+      <application name="@Om30/pock-single-spa-cadastro"></application>
+    </route>
+    <route default>
+      <application name="@Om30/pock-single-spa-login"></application>
+    </route>
+  </main>
+</single-spa-router>
